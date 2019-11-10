@@ -4,7 +4,7 @@ An app scaffold that uses Typescript+Node+React+Express. Allows for simple concu
 ## Getting started
 1. npm install && cd client && npm install && cd ..
 2. npm start
-3. Go to 0.0.0.0:3000
+3. Go to 0.0.0.0:3000 to load the react client, 0.0.0.0:3001 to hit the node backend API
 
 ## Starting from scratch
 Here are the steps used to generate this scaffold:
@@ -114,3 +114,12 @@ require('child_process').spawn('npm', args, opts);
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 ```
+
+## Appendix A: Source material
+Links I used to put this app together
+
+1. Typescript+node tutorial: [https://scotch.io/tutorials/setting-up-a-node-project-with-typescript]
+2. Typescript compilation on save: [https://stackoverflow.com/questions/29996145/visual-studio-code-compile-on-save]
+3. Node reload on save: [https://github.com/remy/nodemon#nodemon]
+4. Typescript & react: [https://create-react-app.dev/docs/adding-typescript/]
+5. Adding express to a node app: [https://dev.to/loujaybee/using-create-react-app-with-express]
